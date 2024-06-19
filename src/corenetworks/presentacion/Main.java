@@ -1,5 +1,7 @@
 package corenetworks.presentacion;
 
+import corenetworks.modelo.Coche;
+
 public class Main {
     public static void main(String[] args) {
         //Instanciar o crear un objeto
