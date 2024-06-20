@@ -30,17 +30,22 @@ public class ProbarAlumno {
                 {
                     a1.introducirNota(posicionNota,nota);
                 }
+                else
+                {
+                    System.out.println("La nota introducida no es correcta");
+                    done = false;
+                }
             }
             else
             {
+                System.out.println("La nota introducida no es correcta");
                 done = false;
             }
 
         }
-        a1.introducirNotas(5,5,5);
         System.out.println(a1.mostrarAlumno());
         System.out.println("EL promedio de notas es: " + a1.mostrarPromedio());
-        System.out.println(a1.mostrarNotas());
+        System.out.println("Las notas parciales" + a1.mostrarNotas());
     }
 
 }

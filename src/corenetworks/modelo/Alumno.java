@@ -9,17 +9,17 @@ public class Alumno {
     private float notaFinal;
 
     //Metodos
-    public void introducirNotas(float nota1,float nota2,float nota3)
-    {
-        notas[0] = nota1;
-        notas[1] = nota2;
-        notas[2] = nota3;
-        for(int i = 0; i <= 2; i++)
-        {
-            notaFinal += notas[i];
-        }
-        notaFinal /= 3;
-    }
+//    public void introducirNotas(float nota1,float nota2,float nota3)
+//    {
+//        notas[0] = nota1;
+//        notas[1] = nota2;
+//        notas[2] = nota3;
+//        for(int i = 0; i <= 2; i++)
+//        {
+//            notaFinal += notas[i];
+//        }
+//        notaFinal /= 3;
+//    }
     public void introducirNota(int posicion,float nota)
     {
         notas[posicion] = nota;
@@ -27,16 +27,27 @@ public class Alumno {
 
     public String mostrarAlumno()
     {
-        return  "la nota final de alumno " + nombre + " es: " + notaFinal;
+        return  "la nota final de alumno " + nombre + " es: " + mostrarPromedio();
     }
     public float mostrarPromedio()
     {
+        notaFinal = 0;
+        for(int i = 1; i < notas.length; i++)
+        {
+            notaFinal += notas[i];
+        }
+        notaFinal /= nNotas;
         return notaFinal;
     }
     public String mostrarNotas()
     {
-        return "La nota del primer trimestre es : " + notas[0] + " La nota del segundo trimestre es : " + notas[1] +
-                " La nota del tercer trimestre es : " + notas[2];
+        String textoNotas = "",paso;
+        for(int i = 1; i < notas.length; i++)
+        {
+
+            textoNotas = textoNotas + " " + notas[i];
+        }
+        return textoNotas;
     }
 
     //Comstructores
@@ -44,7 +55,8 @@ public class Alumno {
     public Alumno() {}
 
     public Alumno( String nombre,int nNotas) {
-        this.notas = new float[nNotas];
+        this.nNotas = nNotas;
+        this.notas = new float[nNotas+1];
         this.nombre = nombre;
     }
 
