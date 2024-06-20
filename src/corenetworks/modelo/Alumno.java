@@ -4,6 +4,7 @@ public class Alumno {
 
     //Atributos
     private String nombre;
+    private int nNotas;
     private float[] notas;
     private float notaFinal;
 
@@ -19,6 +20,11 @@ public class Alumno {
         }
         notaFinal /= 3;
     }
+    public void introducirNota(int posicion,float nota)
+    {
+        notas[posicion] = nota;
+    }
+
     public String mostrarAlumno()
     {
         return  "la nota final de alumno " + nombre + " es: " + notaFinal;
@@ -35,12 +41,24 @@ public class Alumno {
 
     //Comstructores
 
-    public Alumno() {
-        this.notas = new float[3];
+    public Alumno() {}
+
+    public Alumno( String nombre,int nNotas) {
+        this.notas = new float[nNotas];
+        this.nombre = nombre;
     }
 
-    public Alumno( String nombre) {
-        this.notas = new float[3];
+    //Setters y Getters
+
+    public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public float getNotaFinal() {
+        return notaFinal;
     }
 }

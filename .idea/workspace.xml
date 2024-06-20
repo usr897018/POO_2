@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 20/06/2024 10:58">
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Multiplicar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAlumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarMultiplicar.java" afterDir="false" />
+    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 20/06/2024 11:56">
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Dado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarDado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAlumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAlumno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
     "Application.ProbarAreas.executor": "Run",
     "Application.ProbarCampos.executor": "Run",
     "Application.ProbarCurso.executor": "Run",
+    "Application.ProbarDado.executor": "Run",
     "Application.ProbarGerente.executor": "Run",
     "Application.ProbarMultiplicar.executor": "Run",
     "Application.ProbarSaludo.executor": "Run",
@@ -62,19 +63,6 @@
   <component name="RunManager" selected="Application.ProbarAlumno">
     <configuration name="ProbarAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarAlumno" />
-      <module name="POO_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="corenetworks.presentacion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProbarAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarAnimal" />
       <module name="POO_2" />
       <extension name="coverage">
         <pattern>
@@ -112,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProbarDado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarDado" />
+      <module name="POO_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProbarMultiplicar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarMultiplicar" />
       <module name="POO_2" />
@@ -128,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ProbarAlumno" />
+        <item itemvalue="Application.ProbarDado" />
         <item itemvalue="Application.ProbarMultiplicar" />
         <item itemvalue="Application.ProbarCampos" />
         <item itemvalue="Application.ProbarAreas" />
-        <item itemvalue="Application.ProbarAnimal" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718873949978</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 20/06/2024 11:56">
+      <option name="closed" value="true" />
+      <created>1718877406718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718877406718</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +201,7 @@
     <MESSAGE value="Commit 19/06/2024 10:57" />
     <MESSAGE value="Commit 19/06/2024 12:51" />
     <MESSAGE value="Commit 20/06/2024 10:58" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 20/06/2024 10:58" />
+    <MESSAGE value="Commit 20/06/2024 11:56" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 20/06/2024 11:56" />
   </component>
 </project>
