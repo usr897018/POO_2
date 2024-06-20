@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 19/06/2024 10:57">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarUsuario.java" afterDir="false" />
+    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 19/06/2024 12:51">
+      <change afterPath="$PROJECT_DIR$/src/DatosEjercicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Areas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Campos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Saludo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAreas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarCampos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarGerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarSaludo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Coche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarCurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarCurso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ProbarAnimal.executor": "Run",
+    "Application.ProbarAreas.executor": "Run",
+    "Application.ProbarCampos.executor": "Run",
     "Application.ProbarCurso.executor": "Run",
+    "Application.ProbarGerente.executor": "Run",
+    "Application.ProbarSaludo.executor": "Run",
     "Application.ProbarUsuario.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -57,22 +65,9 @@
       <recent name="C:\Users\manana\Desktop\Kaltorak\Proyectos\POO_2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProbarUsuario">
-    <configuration name="ProbarCurso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarCurso" />
-      <module name="POO_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="corenetworks.modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProbarUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarUsuario" />
+  <component name="RunManager" selected="Application.ProbarCampos">
+    <configuration name="ProbarAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarAnimal" />
       <module name="POO_2" />
       <extension name="coverage">
         <pattern>
@@ -84,23 +79,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="ProbarAreas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarAreas" />
       <module name="POO_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="ProbarCampos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarCampos" />
       <module name="POO_2" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarGerente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarGerente" />
+      <module name="POO_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarSaludo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarSaludo" />
+      <module name="POO_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProbarUsuario" />
-        <item itemvalue="Application.ProbarCurso" />
+        <item itemvalue="Application.ProbarCampos" />
+        <item itemvalue="Application.ProbarAreas" />
+        <item itemvalue="Application.ProbarAnimal" />
+        <item itemvalue="Application.ProbarSaludo" />
+        <item itemvalue="Application.ProbarGerente" />
       </list>
     </recent_temporary>
   </component>
@@ -137,12 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718787464515</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 19/06/2024 12:51">
+      <option name="closed" value="true" />
+      <created>1718794271643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718794271643</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 19/06/2024 10:20" />
     <MESSAGE value="Commit 19/06/2024 10:57" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 19/06/2024 10:57" />
+    <MESSAGE value="Commit 19/06/2024 12:51" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 19/06/2024 12:51" />
   </component>
 </project>
