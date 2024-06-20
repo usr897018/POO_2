@@ -9,17 +9,7 @@ public class Alumno {
     private float notaFinal;
 
     //Metodos
-//    public void introducirNotas(float nota1,float nota2,float nota3)
-//    {
-//        notas[0] = nota1;
-//        notas[1] = nota2;
-//        notas[2] = nota3;
-//        for(int i = 0; i <= 2; i++)
-//        {
-//            notaFinal += notas[i];
-//        }
-//        notaFinal /= 3;
-//    }
+
     public void introducirNota(int posicion,float nota)
     {
         notas[posicion] = nota;

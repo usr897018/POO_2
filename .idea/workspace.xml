@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 20/06/2024 13:11">
+    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 20/06/2024 13:58">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAlumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAlumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarAreas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718881888131</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit 20/06/2024 13:58">
+      <option name="closed" value="true" />
+      <created>1718884749553</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718884749553</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,6 +217,7 @@
     <MESSAGE value="Commit 20/06/2024 10:58" />
     <MESSAGE value="Commit 20/06/2024 11:56" />
     <MESSAGE value="Commit 20/06/2024 13:11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 20/06/2024 13:11" />
+    <MESSAGE value="Commit 20/06/2024 13:58" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 20/06/2024 13:58" />
   </component>
 </project>
