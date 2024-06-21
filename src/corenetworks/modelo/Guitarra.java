@@ -2,7 +2,7 @@ package corenetworks.modelo;
 
 public class Guitarra extends InstrumentoMusical{
     //Atributos
-    private String nCuerdas;
+    private String tipoCuerdas;
     //metodo
     @Override
     public String emitorSonido()
@@ -16,18 +16,18 @@ public class Guitarra extends InstrumentoMusical{
     public Guitarra() {
     }
 
-    public Guitarra(String marca, String nCuerdas) {
+    public Guitarra(String marca, String tipoCuerdas) {
         super(marca);
-        this.nCuerdas = nCuerdas;
+        this.tipoCuerdas = tipoCuerdas;
     }
 
     //Setters y Getters
 
-    public void setnCuerdas(String nCuerdas) {
-        this.nCuerdas = nCuerdas;
+    public void setnCuerdas(String tipoCuerdas) {
+        this.tipoCuerdas = tipoCuerdas;
     }
 
     public String getnCuerdas() {
-        return nCuerdas;
+        return tipoCuerdas;
     }
 }

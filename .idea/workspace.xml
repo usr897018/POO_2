@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 20/06/2024 14:11">
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Bateria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Flauta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Guitarra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/InstrumentoMusical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarInstrumentoMusical.java" afterDir="false" />
+    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 21/06/2024 09:35">
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Operador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarFigura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/PruebaEmpleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarGerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarGerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Bateria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Bateria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Guitarra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Guitarra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarInstrumentoMusical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarInstrumentoMusical.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +51,13 @@
     "Application.ProbarCampos.executor": "Run",
     "Application.ProbarCurso.executor": "Run",
     "Application.ProbarDado.executor": "Run",
+    "Application.ProbarFigura.executor": "Run",
     "Application.ProbarGerente.executor": "Run",
     "Application.ProbarInstrumentoMusical.executor": "Run",
     "Application.ProbarMultiplicar.executor": "Run",
     "Application.ProbarSaludo.executor": "Run",
     "Application.ProbarUsuario.executor": "Run",
+    "Application.PruebaEmpleado.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -63,7 +71,7 @@
       <recent name="C:\Users\manana\Desktop\Kaltorak\Proyectos\POO_2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProbarInstrumentoMusical">
+  <component name="RunManager" selected="Application.PruebaEmpleado">
     <configuration name="ProbarAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarAlumno" />
       <module name="POO_2" />
@@ -77,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbarDado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarDado" />
+    <configuration name="ProbarFigura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarFigura" />
       <module name="POO_2" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbarMultiplicar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarMultiplicar" />
+    <configuration name="PruebaEmpleado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.PruebaEmpleado" />
       <module name="POO_2" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PruebaEmpleado" />
+        <item itemvalue="Application.ProbarFigura" />
         <item itemvalue="Application.ProbarInstrumentoMusical" />
         <item itemvalue="Application.ProbarGerente" />
         <item itemvalue="Application.ProbarAlumno" />
-        <item itemvalue="Application.ProbarDado" />
-        <item itemvalue="Application.ProbarMultiplicar" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718885521160</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit 21/06/2024 09:35">
+      <option name="closed" value="true" />
+      <created>1718955376946</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718955376946</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -232,6 +248,7 @@
     <MESSAGE value="Commit 20/06/2024 13:11" />
     <MESSAGE value="Commit 20/06/2024 13:58" />
     <MESSAGE value="Commit 20/06/2024 14:11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 20/06/2024 14:11" />
+    <MESSAGE value="Commit 21/06/2024 09:35" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 21/06/2024 09:35" />
   </component>
 </project>

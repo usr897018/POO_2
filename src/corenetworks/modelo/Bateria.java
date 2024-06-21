@@ -2,7 +2,7 @@ package corenetworks.modelo;
 
 public class Bateria extends InstrumentoMusical{
     //Atributos
-    private String nPlatillos;
+    private int nPlatillos;
     //metodo
     @Override
     public String emitorSonido()
@@ -16,18 +16,18 @@ public class Bateria extends InstrumentoMusical{
     public Bateria() {
     }
 
-    public Bateria(String marca, String nPlatillos) {
+    public Bateria(String marca, int nPlatillos) {
         super(marca);
         this.nPlatillos = nPlatillos;
     }
 
     //Setters y Getters
 
-    public void setnCuerdas(String nPlatillos) {
+    public void setnCuerdas(int nPlatillos) {
         this.nPlatillos = nPlatillos;
     }
 
-    public String getnCuerdas() {
+    public int getnCuerdas() {
         return nPlatillos;
     }
 }
