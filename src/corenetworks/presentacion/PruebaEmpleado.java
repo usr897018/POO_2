@@ -7,12 +7,12 @@ import corenetworks.modelo.Vendedor;
 
 public class PruebaEmpleado {
     public static void main(String[] args) {
-        Empleado gerente = new Gerente(3000,"123456F","David",
-                1,"Perfumeria",3,300);
-        Empleado vendedor = new Vendedor(1500,"12345342G","Manolo",
-                2,100,0.25);
-        Empleado operador = new Operador(1200,"2332244F","Luisa",
-                3,100,0.25);
+        Empleado gerente = new Gerente(2000,"123456F","David",
+                1,"Perfumeria",3,200);
+        Empleado vendedor = new Vendedor(1000,"12345342G","Manolo",
+                2,15000,0.01);
+        Empleado operador = new Operador(1000,"2332244F","Luisa",
+                3,2000,0.0001);
 
         Empleado[] empleados = new Empleado[3];
         empleados[0] = gerente;

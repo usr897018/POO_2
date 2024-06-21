@@ -17,9 +17,11 @@ public class ProbarFigura {
         tPeque.setBase(12);
         tPeque.setAltura(3);
         Figura tMediano = new Triangulo(30,40,20,7);
-        Figura[] f1 = new Figura[2];
-        f1[0] = cMediano;
-        f1[1] = tMediano;
+        Figura[] f1 = new Figura[4];
+        f1[0] = cPeque;
+        f1[1] = cMediano;
+        f1[2] = tPeque;
+        f1[3] = tMediano;
         for(Figura elemento: f1)
         {
             System.out.println("---------Calculando el area-----------------");

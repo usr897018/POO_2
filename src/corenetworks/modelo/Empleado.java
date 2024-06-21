@@ -8,13 +8,13 @@ public class Empleado {
     protected String nombre;
     protected String nDNI;
     protected double sueldo;
-    protected final double PORCENTAJE = 0.75;
+    protected final static double PORCENTAJE = 0.75;
 
     //Metodos
 
     public double calcularNomina()
     {
-        return sueldo * 0.86;
+        return sueldo * PORCENTAJE;
     }
 
     //Constructores

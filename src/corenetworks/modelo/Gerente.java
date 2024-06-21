@@ -12,7 +12,7 @@ public class Gerente extends Empleado{
 
     @Override
     public double calcularNomina() {
-        return ((super.calcularNomina() + bono) * PORCENTAJE);
+        return ((sueldo + bono) * PORCENTAJE);
     }
 
 
