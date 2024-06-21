@@ -60,14 +60,14 @@ public class Dado {
 
     public String lanzar()
     {
-        valor = numeroAleatorio.nextInt(1,6);
+        valor = numeroAleatorio.nextInt(1,7);
         return "El valor del dado es: " + valor + representacion(valor);
     }
     //Comstructores
     public Dado()
     {
         numeroAleatorio = new Random();
-        valor = numeroAleatorio.nextInt(1,6);
+        valor = numeroAleatorio.nextInt(1,7);
 
     }
 

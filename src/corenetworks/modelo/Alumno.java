@@ -42,8 +42,6 @@ public class Alumno {
 
     //Comstructores
 
-    public Alumno() {}
-
     public Alumno( String nombre,int nNotas) {
         this.nNotas = nNotas;
         this.notas = new float[nNotas+1];

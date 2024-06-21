@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 21/06/2024 10:52">
+    <list default="true" id="b7d2b726-d904-4117-afa8-14997bbddb06" name="Changes" comment="Commit 21/06/2024 12:15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Empleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarFigura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/ProbarFigura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corenetworks/presentacion/PruebaEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/presentacion/PruebaEmpleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corenetworks/modelo/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corenetworks/modelo/Alumno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +60,9 @@
       <recent name="C:\Users\manana\Desktop\Kaltorak\Proyectos\POO_2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PruebaEmpleado">
-    <configuration name="ProbarAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarAlumno" />
+  <component name="RunManager" selected="Application.ProbarDado">
+    <configuration name="ProbarDado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarDado" />
       <module name="POO_2" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbarGerente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarGerente" />
+    <configuration name="ProbarInstrumentoMusical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarInstrumentoMusical" />
       <module name="POO_2" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProbarInstrumentoMusical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarInstrumentoMusical" />
+    <configuration name="ProbarMultiplicar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corenetworks.presentacion.ProbarMultiplicar" />
       <module name="POO_2" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProbarDado" />
+        <item itemvalue="Application.ProbarMultiplicar" />
         <item itemvalue="Application.PruebaEmpleado" />
         <item itemvalue="Application.ProbarFigura" />
         <item itemvalue="Application.ProbarInstrumentoMusical" />
-        <item itemvalue="Application.ProbarGerente" />
-        <item itemvalue="Application.ProbarAlumno" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718959963823</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit 21/06/2024 12:15">
+      <option name="closed" value="true" />
+      <created>1718964974794</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718964974794</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,6 +255,7 @@
     <MESSAGE value="Commit 20/06/2024 14:11" />
     <MESSAGE value="Commit 21/06/2024 09:35" />
     <MESSAGE value="Commit 21/06/2024 10:52" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 21/06/2024 10:52" />
+    <MESSAGE value="Commit 21/06/2024 12:15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 21/06/2024 12:15" />
   </component>
 </project>
